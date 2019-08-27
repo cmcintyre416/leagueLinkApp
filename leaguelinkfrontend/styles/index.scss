@@ -45,27 +45,11 @@ body {
         }
 
         .logo {
-            position: relative;
-            height: 200px;
-            width: 200px;
-            left: -15px;
-            
+            margin-bottom: 40px;
             .logoImage {
-                width: 120px;
-            }
-
-            .logoTextTop, .logoTextBottom {
-                position: absolute;
-                top: 5px;
-                left: 70px;
-                font-size: 50px;
-                font-weight: 700;
-                color: black;
-            }
-
-            .logoTextBottom {
-                top: 68px;
-                left: 115px;
+                width: 200px;
+                position: relative;
+                left: -5px;
             }
         }
         
@@ -92,5 +76,9 @@ body {
         }
 
     }
+}
+
+.homeBox {
+    transition: 0.6s ease-in all;
 }
 

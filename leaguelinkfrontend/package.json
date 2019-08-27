@@ -12,7 +12,9 @@
     "next": "9.0.5",
     "next-images": "^1.1.2",
     "react": "16.9.0",
-    "react-dom": "16.9.0"
+    "react-animation": "^1.2.0",
+    "react-dom": "16.9.0",
+    "react-pose": "^4.0.8"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -41,7 +43,7 @@
     "react-bootstrap-table": "^4.3.1",
     "react-dom": "^16.7.0",
     "react-syntax-highlighter": "^10.1.2",
-    "react-transition-group": "^2.5.1",
+    "react-transition-group": "^2.9.0",
     "reactstrap": "^6.5.0",
     "sass-loader": "^7.1.0",
     "universal-cookie": "^3.0.7"
