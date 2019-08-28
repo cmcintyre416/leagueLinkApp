@@ -36,6 +36,8 @@
     height: 18px;
     box-sizing: border-box;
     user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
   }
   
   
@@ -47,4 +49,6 @@
     font-weight: bold;
     font-family: 'Roboto',arial,sans-serif;
     user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
   }
