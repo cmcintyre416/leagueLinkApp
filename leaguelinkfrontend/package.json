@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev -- -p 8888",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "npm run build && next export"
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
@@ -30,6 +31,7 @@
     "nedb": "^1.8.0",
     "next": "^7.0.2",
     "next-auth": "^1.12.1",
+    "next-export": "^0.1.7",
     "node-sass": "^4.12.0",
     "nodemailer": "^4.7.0",
     "nodemailer-direct-transport": "^3.3.2",
