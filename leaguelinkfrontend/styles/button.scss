@@ -35,6 +35,7 @@
     width: 18px;
     height: 18px;
     box-sizing: border-box;
+    user-select: none;
   }
   
   
@@ -45,4 +46,5 @@
     font-size: 14px;
     font-weight: bold;
     font-family: 'Roboto',arial,sans-serif;
+    user-select: none;
   }
