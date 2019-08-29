@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
 import Head from 'next/head';
 import GoogleButton from '../components/googleButton';
 import Logo from '../components/logo';
@@ -53,6 +54,9 @@ function Home() {
           <Item>
             <p className={css.homeDescription}>
               League Link is a multi purpose app for creating, managing and joining sports leagues and tournaments. From fun 'beer leagues' to leagues for 'hardos' we will be there to help you with the logistics.
+            </p>
+            <p className={css.homeDescription}>
+              View our app updates page <Link href="/updates">here</Link>.
             </p>
           </Item>
           </div>
